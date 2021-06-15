@@ -1,4 +1,4 @@
-# Bloco 9 - Aula 2: JavaScript Promises
+# Bloco 9 (Trybe) - Aula 2: JavaScript Promises
 
 ### Na aula 2 do bloco 9 vimos as mais diversas propriedades das funções Promises, verificando empiricamente a sua funcionalidade quando o assunto é simplificar um bloco de código assíncrono.
 
