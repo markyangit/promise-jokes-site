@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+  
+@media screen and (min-width:  754px)  {
+  
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display",  serif;
+}
+
+header {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(180,  179,  179,  0.192);
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-left: 15px;
+}
+
+.items {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+
+.items img, a {
+  width: 30%;
+}
+
+a:link {
+  color:black;
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(3,  37,  77);
+}
+
+.jokeContainer {
+  height: 70%;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.jokeContainer h1 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+}
+
+@media screen and (max-width: 753px)  {
+  
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display",  serif;
+}
+
+header {
+  height: auto;
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  background-color: rgba(180,  179,  179,  0.192);
+}
+
+header h1 {
+  font-size: 1.3em;
+  margin-left: 15px;
+}
+
+.items {
+  display:  flex;
+  flex-direction:  column;
+  place-content:  center space-around;
+  width:  20%;
+}
+
+.items img, a {
+  width: 60%;
+}
+
+a:hover {
+  font-size: 30px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(3,  37,  77);
+}
+
+.jokeContainer {
+  height: 80%;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.jokeContainer h1 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 30%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+}
